@@ -30,13 +30,6 @@
   .emotes2 {
     filter: drop-shadow(5px -5px 10px black);
   }
-  .logoinst {
-    position: fixed;
-    top: 92vh;
-    right: 50px;
-    color: black;
-  }
-  
   main {
     position: relative;
     overflow-x: hidden;
@@ -44,10 +37,6 @@
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-  }
-  .gg-instagram {
-    width: 50px;
-    height: 50px;
   }
   .imagenfluid {
     margin: 0 auto;

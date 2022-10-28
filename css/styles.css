@@ -20,8 +20,9 @@ header {
   height: 100px;
   margin-right: 10px; }
 
-body {
-  margin: 0; }
+.gg-instagram {
+  width: 50px;
+  height: 50px; }
 
 h1 {
   font-size: 2.7rem;
@@ -50,9 +51,6 @@ h4 {
   color: black;
   font-family: "Saira Semi Condensed", sans-serif; }
 
-.info-list {
-  font-size: 1.5rem; }
-
 .precios {
   list-style: none;
   text-align: center;
@@ -60,15 +58,11 @@ h4 {
   font-size: 1.5rem;
   font-family: "Saira Semi Condensed", sans-serif; }
 
-a {
-  text-decoration: none;
+.logoinst {
+  position: fixed;
+  top: 92vh;
+  right: 50px;
   color: black; }
-
-nav a {
-  font-weight: 600;
-  padding-right: 10px; }
-  nav a:hover {
-    color: white; }
 
 .boton {
   display: flex;
@@ -98,14 +92,24 @@ nav a {
   border-radius: 10px;
   position: relative; }
 
+body {
+  margin: 0; }
+
+.info-list {
+  font-size: 1.5rem; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+nav a {
+  font-weight: 600;
+  padding-right: 10px; }
+  nav a:hover {
+    color: white; }
+
 .emotes2 {
   filter: drop-shadow(5px -5px 10px black); }
-
-.logoinst {
-  position: fixed;
-  top: 92vh;
-  right: 50px;
-  color: black; }
 
 main {
   position: relative;
@@ -114,10 +118,6 @@ main {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat; }
-
-.gg-instagram {
-  width: 50px;
-  height: 50px; }
 
 .imagenfluid {
   margin: 0 auto;
